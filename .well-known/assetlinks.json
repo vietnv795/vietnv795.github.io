@@ -1,0 +1,26 @@
+
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.vn.fastehome",
+    "sha256_cert_fingerprints":
+    ["C3:2E:97:42:8A:BA:EF:4C:3E:FE:05:03:04:BB:56:22:18:E1:06:2F:FE:FF:4B:9F:E9:02:0B:87:F2:C6:45:80"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "web",
+    "site": "https://192.168.1.2:3000"
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.vn.fastehome",
+    "sha256_cert_fingerprints":
+    ["C3:2E:97:42:8A:BA:EF:4C:3E:FE:05:03:04:BB:56:22:18:E1:06:2F:FE:FF:4B:9F:E9:02:0B:87:F2:C6:45:80"]
+  }
+}]
